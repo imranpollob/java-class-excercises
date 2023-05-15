@@ -4,7 +4,7 @@ public class MathQuiz {
     public static void quiz() {
         // generate two random numbers ---
 //        System.out.println("A random number " + (int) (Math.random() * 100));
-
+//        System.out.println("A random number " + System.currentTimeMillis());
         // take two numbers from the user
         Scanner input = new Scanner(System.in);
 //        System.out.print("Enter the first number: ");
@@ -22,5 +22,8 @@ public class MathQuiz {
         } else {
             System.out.println("Your answer is WRONG!");
         }
+
+        System.out.println(result == userResult ? "Your answer is CORRECT!" : "Your answer is WRONG!");
+
     }
 }

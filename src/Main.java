@@ -5,7 +5,10 @@ public class Main {
 //        MathQuiz.quiz();
 //        TestingElse.test();
 //        BitwiseOperation.test();
-        SwitchTest.test();
+//        SwitchTest.test();
+//        MathTest.test();
+//        CharacterTest.test();
+        StringTest.test();
     }
 
 }

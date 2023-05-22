@@ -23,7 +23,7 @@ public class MathQuiz {
             System.out.println("Your answer is WRONG!");
         }
 
-        System.out.println(result == userResult ? "Your answer is CORRECT!" : "Your answer is WRONG!");
+//        System.out.println(result == userResult ? "Your answer is CORRECT!" : "Your answer is WRONG!");
 
     }
 }

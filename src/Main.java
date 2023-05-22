@@ -8,7 +8,16 @@ public class Main {
 //        SwitchTest.test();
 //        MathTest.test();
 //        CharacterTest.test();
-        StringTest.test();
+//        StringTest.test();
+//        MathQuizLoop.test();
+//        FloatingPointLoop.test();
+//        DoWhileLoop.test();
+//        ForLoop.test();
+//        BreakAndContinue.test();
+
+
+
     }
+
 
 }

@@ -14,7 +14,7 @@ public class Main {
 //        DoWhileLoop.test();
 //        ForLoop.test();
 //        BreakAndContinue.test();
-
+        Quiz.test();
 
 
     }

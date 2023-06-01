@@ -15,7 +15,8 @@ public class Main {
 //        ForLoop.test();
 //        BreakAndContinue.test();
 //        Quiz.test();
-        MethodExperiment.test();
+//        MethodExperiment.test();
+        ArrayPractice.test();
     }
 
 

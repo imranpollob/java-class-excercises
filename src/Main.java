@@ -16,7 +16,8 @@ public class Main {
 //        BreakAndContinue.test();
 //        Quiz.test();
 //        MethodExperiment.test();
-        ArrayPractice.test();
+//        ArrayPractice.test();
+        MultidimensionalArray.test();
     }
 
 

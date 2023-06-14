@@ -55,6 +55,21 @@ public class Main {
 //        DefaultValue df = new DefaultValue();
 //        df.test();
 //        System.out.println(DefaultValue.age);
+
+//        This thisObject = new This();
+//        thisObject.setAge(5);
+//        System.out.println(thisObject.getAge());
+//        thisObject.setAgeUsingThis(7);
+//        System.out.println(thisObject.getAge());
+//
+//        This.setPoint(20);
+//        System.out.println(thisObject.getPoint());
+//        This.setPoint2(50);
+//        System.out.println(thisObject.getPoint());
+
+        This thisObj = new This();
+        System.out.println(thisObj.getAge());
+        System.out.println(thisObj.getPoint());
     }
 
 

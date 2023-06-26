@@ -1,3 +1,7 @@
+//import com.deitel.data.A;
+//import com.deitel.data.C;
+import com.deitel.data.*;
+import report.ShowReport;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,9 +71,14 @@ public class Main {
 //        This.setPoint2(50);
 //        System.out.println(thisObject.getPoint());
 
-        This thisObj = new This();
-        System.out.println(thisObj.getAge());
-        System.out.println(thisObj.getPoint());
+//        This thisObj = new This();
+//        System.out.println(thisObj.getAge());
+//        System.out.println(thisObj.getPoint());
+
+        ShowReport showReport = new ShowReport();
+        showReport.test();
+        A a = new A();
+        C c = new C();
     }
 
 

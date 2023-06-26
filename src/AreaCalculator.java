@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AreaCalculator {
+class AreaCalculator {
     public static void calculator() {
         Scanner input = new Scanner(System.in);
 

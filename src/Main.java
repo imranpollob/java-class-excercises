@@ -75,10 +75,12 @@ public class Main {
 //        System.out.println(thisObj.getAge());
 //        System.out.println(thisObj.getPoint());
 
-        ShowReport showReport = new ShowReport();
-        showReport.test();
-        A a = new A();
-        C c = new C();
+//        ShowReport showReport = new ShowReport();
+//        showReport.test();
+//        A a = new A();
+//        C c = new C();
+
+        ThinkingInObjects.test();
     }
 
 

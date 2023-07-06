@@ -80,7 +80,18 @@ public class Main {
 //        A a = new A();
 //        C c = new C();
 
-        ThinkingInObjects.test();
+//        ThinkingInObjects.test();
+
+        Tiger tiger = new Tiger();
+//        System.out.println(tiger.toString());
+//        tiger.feed();
+        System.out.println(tiger);
+//        Animal.hi();
+//        tiger.hi();
+
+//        tiger.test1(10);
+//        tiger.test2(10);
+//        tiger.test2(10.0);
     }
 
 

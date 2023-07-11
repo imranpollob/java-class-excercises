@@ -3,6 +3,8 @@
 import com.deitel.data.*;
 import report.ShowReport;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 //        AreaCalculator.calculator();
@@ -92,6 +94,22 @@ public class Main {
 //        tiger.test1(10);
 //        tiger.test2(10);
 //        tiger.test2(10.0);
+        Animal animal = new Tiger();
+        if (animal instanceof Tiger) {
+            System.out.println("animal object is an instance of Tiger");
+        }
+//        Tiger tiger1 = (Tiger) new Animal();
+//        if (tiger1 instanceof Animal) {
+//            System.out.println("tiger1 object is an instance of Animal");
+//        }
+
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        numbers.add(7);
+        numbers.add(5);
+        numbers.remove(5);
+
+
     }
 
 

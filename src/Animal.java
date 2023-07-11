@@ -29,7 +29,7 @@ public class Animal {
         System.out.println("Hello");
     }
 
-    // private -> protected -> public
+    // private ->  -> publicprotected
     protected void say() {
 
     }

@@ -5,6 +5,7 @@ import report.ShowReport;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -112,10 +113,35 @@ public class Main {
 
 //        MyException.test();
 
-        try {
-            MyFile.test();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+//        try {
+//            MyFile.test();
+//        } catch (FileNotFoundException e) {
+//            throw new RuntimeException(e);
+//        }
+
+//        GeometricObject[] geo = new GeometricObject[5];
+//        // We can't instantiate an abstract class
+//
+//        Circle circle = new Circle(5);
+//        System.out.println(circle.getArea());
+//
+//        Rectangle rectangle = new Rectangle(2, 2);
+//        System.out.println(rectangle.getArea());
+
+//        Apple apple = new Apple();
+//        apple.howToEat();
+//        System.out.println(Apple.count);
+
+        ComparableRectangle[] rectangles = {
+                new ComparableRectangle(3.4, 5.4),
+                new ComparableRectangle(13.24, 55.4),
+                new ComparableRectangle(7.4, 35.4),
+                new ComparableRectangle(1.4, 25.4)};
+
+        Arrays.sort(rectangles);
+
+        for (ComparableRectangle rectangle: rectangles) {
+            System.out.println(rectangle);
         }
     }
 
